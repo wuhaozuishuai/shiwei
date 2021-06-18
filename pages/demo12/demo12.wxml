@@ -1,0 +1,14 @@
+<!-- 
+    button
+     open-typen的   getPhoneNumber 获取当前用户的手机号码信息，结合一个事件来使用，不是企业的小程序没有权限获取
+        1.绑定一个事件，bindgetPhoneNumber
+        2.在事件的回调函数中，通过参数来获取信息          
+        3.获取到的信息是加密的
+            需要自己在后台中进行解析手机号码
+ -->
+
+ <button type="warn" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">按钮</button>
+ <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" >按钮</button>
+ <button open-type="openSetting" >按钮</button>
+ <button open-type="contact" >按钮</button>
+

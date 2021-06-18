@@ -1,0 +1,26 @@
+<!-- 1.image标签存在默认宽高 320*240
+
+    2.mode 决定图片缩放的模式 -->
+
+<!-- <image mode="aspectFit" src="http://www.yxy.pink:5120/uploads/big/08c04357571ec7d250f0b813ce0496cc.png"></image> -->
+
+<!-- 1.轮播图外层容器swiper
+     2.轮播项 swiper-item
+     3.swiper 存在默认值 
+        width：100% 
+        hight:150px image标签存在默认320*240
+        swiper高度无法实现由内容撑开
+     4.先找出来原图的宽度和高度，等比例给swiper定宽度和高度
+     
+ -->
+<swiper interval="2000" circular autoplay indicator-dots indicator-color="grep" indicator-active-color="red">
+    <swiper-item>
+        <image mode="widthFix" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2835891596,3054666893&fm=26&gp=0.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image  mode="widthFix" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=774373677,2313985244&fm=26&gp=0.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image  mode="widthFix" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1292020288,3194758620&fm=26&gp=0.jpg"></image>
+    </swiper-item>
+</swiper>

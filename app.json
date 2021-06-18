@@ -1,7 +1,17 @@
 {
   "pages":[
+    "pages/demo13/demo13",
+    "pages/demo12/demo12",
+    "pages/demo11/demo11",
+    "pages/demo09/demo09",
+    "pages/demo10/demo10",
+    "pages/demo08/demo08",
+    "pages/demo07/demo07",
+    "pages/demo06/demo06",
+    "pages/demo05/demo05",
+    "pages/demo03/demo03",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs" 
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -9,13 +19,19 @@
     "navigationBarTitleText": "拾微",
     "navigationBarTextStyle":"black"
   },
-  "tabBar":{
+  "tabBar": {
     "list": [{
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/demo09/demo09",
       "text": "首页",
-      "iconPath": ""
-    }]
+      "iconPath": "icon/k1.png",
+      "selectedIconPath": "icon/k5.png"
+    },{
+      "pagePath": "pages/demo08/demo08",
+      "text": "轮播",
+      "iconPath": "icon/k2.png",
+      "selectedIconPath": "icon/k6.png"
+    }
+  ]
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

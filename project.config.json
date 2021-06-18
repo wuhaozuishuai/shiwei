@@ -33,7 +33,7 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.16.1",
+  "libVersion": "2.17.3",
   "appid": "wxf26518d1cb3cdf61",
   "projectname": "shiwei",
   "debugOptions": {

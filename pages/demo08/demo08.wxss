@@ -1,0 +1,15 @@
+/* image{
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 375px;
+    height: 150px;
+} */
+
+swiper{
+    width: 100%;
+    height: calc(100vw*300/800);
+}
+
+image{
+    width:100%;
+}

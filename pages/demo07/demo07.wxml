@@ -1,0 +1,4 @@
+
+<!--1.长按文字复制属性 selectable  -->
+<!--2. 对文本内容进行解码-->
+<text user-select="{{true}}" decode="{{true}}">pages/demo07/demo07.wxml &nbsp; 4545</text>

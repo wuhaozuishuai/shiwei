@@ -1,0 +1,4 @@
+/* pages/demo11/demo11.wxss */
+.my_div{
+    color: red;
+}

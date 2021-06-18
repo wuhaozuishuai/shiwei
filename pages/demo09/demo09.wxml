@@ -1,0 +1,11 @@
+<!-- 
+    导航组件 navigator
+    1.url 跳转的页面可以为相对路径或者绝对路径
+
+    跳转方式
+    open-type="switchTab" 可以跳转到tabbar页面
+ -->
+
+<navigator url="/pages/demo08/demo08"  open-type="switchTab">轮播</navigator>
+<navigator url="/pages/index/index" >sss</navigator>
+  

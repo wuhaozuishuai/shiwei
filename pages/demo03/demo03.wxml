@@ -1,0 +1,32 @@
+<!-- text：相当于html中的span标签
+    view：相当于HTML中的div标签
+
+
+    在小程序中，不能直接修改data中的值
+    this.data.xx  =e.detail.value
+    this.num = e.detail.value
+    需要写为：this.setData({
+        num:e.detail.value
+    })
+
+
+    绑定tap事件
+        1.bindtap
+        2.无法再小程序中直接函数传参
+        3.通过自定义属性来传参
+        4.事件源中获取自定义属性
+     -->
+<text>pagesl</text>
+<text>pages.wxml</text>
+<view>
+    {{msg}}
+</view>
+<input type="text" bindinput="onde"/>
+<button bindtap="handletap" data-operation="{{1}}">+</button>
+<button bindtap="handletap" data-operation="{{-1}}">-</button>
+<view>
+    {{num}}
+</view>
+  
+
+  
